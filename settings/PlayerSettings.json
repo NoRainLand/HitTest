@@ -1,6 +1,23 @@
 {
-    "modules": {
-        "laya.ui": true,
-        "laya.d3": true
-    }
+  "resolution": {
+    "designWidth": 1080,
+    "designHeight": 1920,
+    "scaleMode": "fixedwidth"
+  },
+  "2D": {
+    "useRetinalCanvas": true
+  },
+  "3D": {
+    "enableDynamicBatch": false,
+    "enableUniformBufferObject": false,
+    "enableMultiLight": false
+  },
+  "modules": {
+    "laya.ui": true
+  },
+  "splash": {
+    "enabled": false,
+    "fit": "center"
+  },
+  "stat": true
 }
